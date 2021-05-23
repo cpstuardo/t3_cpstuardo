@@ -1,38 +1,53 @@
-.App {
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.column-mapa {
+  float: left;
+  width: 75%;
+  height: 500px;
+  padding: 10px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.column-chat {
+  float: left;
+  width: 20%;
+  height: 500px;
+  padding: 15px;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+  border: 3px solid rgb(39, 39, 41);
+  height: 900px;
+  text-align:left;
+  margin:0 auto;
+  margin-bottom:25px;
+  padding:10px;
+  height:auto;
+  overflow:auto;
+}
+    
+.column-info {
+  padding: 10px;
+  text-align: center;
+}
+
+.card{
+  margin: auto;
+  background: var(--card-color);
+  color:rgb(75, 145, 192);
+  width: 20%;
+  padding: 5px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.377);
+  border-radius: 20px;            
+}
+
+.leaflet-container {
+  width: 900px;
+  height: 400px;
 }
